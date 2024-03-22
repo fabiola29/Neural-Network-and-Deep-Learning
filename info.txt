@@ -1,0 +1,18 @@
+La cartella contiene una cartella :
+ 
+  - cartella mnist : dataset per addestrare la rete neurale che si può scaricare da tale link http://yann.lecun.com/exdb/mnist/ (nel git non è stato inserito a causa 	             della sua dimensione)
+
+E tre file :
+
+  - functions.py : contiene tutte le funzioni per creare una rete neurale multistrato full connected  
+                   da zero (PARTE A)
+
+  - loader.py : contiene funzioni per caricare il dataset mnist
+
+  - main.py : implementazione di una rete neurale artificiale (ANN) utilizzando il set di dati MNIST 
+              Facendo uso di 10 classi, con dataset diviso con almeno 10000 elementi per il training 
+              set e 2500 per il test set facendo uso della resilient backpropagation (RProp) come 
+              algoritmo di aggiornamento dei pesi. (PARTE B)
+
+
+Si esegue da terminale con : python3  main.py
