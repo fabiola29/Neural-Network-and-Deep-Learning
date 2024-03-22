@@ -2,7 +2,7 @@
 
 Il progetto è suddiviso in tre parti :
 
-  1. Progettazione ed implementazione di una libreria di funzioni per imulare la propagazione in avanti di una rete neurale multi-strato full-connected. Con tale libreria deve essere possibile implementare reti con più di uno strato di nodi interni e con qualsiasi funzione di attivazione per ciascun strato.
+  1. Progettazione ed implementazione di una libreria di funzioni per simulare la propagazione in avanti di una rete neurale multi-strato full-connected. Con tale libreria deve essere possibile implementare reti con più di uno strato di nodi interni e con qualsiasi funzione di attivazione per ciascun strato.
   
   2. Progettazione ed implementazione di funzioni per la realizzazione della back-propagation per reti neurali multi-strato, per qualunque scelta della funzione di attivazione dei nodi della rete e la possibilità di usare almeno la somma dei quadrati o la cross-entropy con e senza soft-max come funzione di errore.
      
