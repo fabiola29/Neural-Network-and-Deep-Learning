@@ -1,1 +1,9 @@
 # Neural-Network-and-Deep-Learning
+
+Il progetto è suddiviso in tre parti :
+
+  1. Progettazione ed implementazione di una libreria di funzioni per imulare la propagazione in avanti di una rete neurale multi-strato full-connected. Con tale libreria deve essere possibile implementare reti con più di uno strato di nodi interni e con qualsiasi funzione di attivazione per ciascun strato.
+  
+  2. Progettazione ed implementazione di funzioni per la realizzazione della back-propagation per reti neurali multi-strato, per qualunque scelta della funzione di attivazione dei nodi della rete e la possibilità di usare almeno la somma dei quadrati o la cross-entropy con e senza soft-max come funzione di errore.
+     
+  3.  Classificazione delle immagini del dataset MNIST. Si ha, allora, un problema di classificazione a C classi, con C=10. Si estragga opportunamente un dataset globale di N coppie, e lo si divida opportunamente in training e test set (considerare almeno 10000 elementi per il training set e 2500 per il test set). Si fissi la resilient backpropagation (RProp) come algoritmo di aggiornamento dei pesi (aggiornamento batch). Si studi l'apprendimento di una rete neurale (ad esempio epoche necessarie per l’apprendimento,andamento dell’errore su training e validation set, accuratezza sul test) con uno solo strato di nodi interni al variare del numero di nodi interni (scegliendo almeno 5 dimensioni diverse) e con funzione di errore cross-entropy più soft-max. Scegliere e mantenere invariati tutti gli altri “iper-parametri” come, ad esempio, le funzioni di attivazione ed i parametri della Rprop. Se è necessario, per questioni di tempi computazionali e spazio in memoria, si possono ridurre le dimensioni delle immagini raw del dataset mnist (ad esempio utilizzando in matlab la funzione imresize)
